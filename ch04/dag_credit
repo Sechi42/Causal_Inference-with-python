@@ -1,0 +1,6 @@
+digraph {
+	credit_score1_buckets -> lines
+	credit_score1_buckets -> default
+	lines -> default
+	credit_score2 -> default
+}
