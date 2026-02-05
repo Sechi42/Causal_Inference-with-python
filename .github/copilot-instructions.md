@@ -34,7 +34,9 @@ Always use LaTeX for mathematical expressions.
     $$
 
 ## Python Code
-* **Libraries:** Focus on modern libraries: `DoWhy`, `EconML`, `CausalML`, `NetworkX` (for DAGs), and standard stacks (`pandas`, `numpy`, `statsmodels`).
+* **Libraries:** Focus on modern libraries: `DoWhy`, `EconML`, `CausalML`, `NetworkX` (for DAGs), `polars` (para manipulación de datos de alto rendimiento), y el stack estándar (`pandas`, `numpy`, `statsmodels`).
+* **Polars Skills:** Utiliza siempre la API de expresiones de `polars` para transformaciones eficientes, filtrado y agregaciones, integrándolas en el flujo de trabajo causal.
+    - Si existe una skill local en `C:\Users\sergi\.agents\skills\polars` o en `C:\Users\sergi\.copilot\skills\polars`, cárgala y úsala como referencia al generar código y patrones idiomáticos de `polars`.
 * **Commentary:** Comments should explain the *causal logic*, not just the syntax.
     * *Bad:* `# Filter data`
     * *Good:* `# Conditioning on the confounder Z to block the back-door path`
