@@ -1,5 +1,6 @@
-causal-inference-in-python-code
-data
+causal-inference-code/
+.venv/
+data/
 
 # Python cache
 __pycache__/
@@ -27,3 +28,6 @@ ch*/*.png
 # OS
 .DS_Store
 Thumbs.db
+causal-inference-in-python-code/
+
+.venv/
